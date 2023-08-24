@@ -34,12 +34,6 @@ img {
     cursor: pointer;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 body {
     font-family: var(--font-family-page);
     background-color: var(--color-white-background);

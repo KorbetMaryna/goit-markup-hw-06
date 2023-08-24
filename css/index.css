@@ -7,6 +7,7 @@
 
 @import './layout/header.css';
 @import './layout/hero.css';
+@import './layout/advantages.css';
 
 @import './components/mobile-menu.css';
 

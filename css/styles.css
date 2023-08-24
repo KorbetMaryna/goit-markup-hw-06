@@ -192,40 +192,6 @@
 
 /* -----SECTION ADVANTAGES----- */
 
-.section-advantages-styles {
-    background-color: var(--color-white-background);
-}
-
-.section-advantages-container {
-    padding: 120px 0;
-}
-
-.section-advantages-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 24px;
-}
-
-.section-advantages-items {
-    width: calc((100% - 3*24px) / 4);
-}
-
-.section-advantages-icons {
-    display: flex;
-    width: 264px;
-    height: 112px;
-    margin-bottom: 8px;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-light);
-    border-radius: 4px;
-}
-
-.section-advantages-title {
-    line-height: var(--line-height-small);
-    margin-bottom: 8px;
-}
 
 /* -----SECTION DOING----- */
 
