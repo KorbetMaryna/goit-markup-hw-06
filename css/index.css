@@ -6,5 +6,8 @@
 @import './base/section.css';
 
 @import './layout/header.css';
+@import './layout/hero.css';
 
 @import './components/mobile-menu.css';
+
+

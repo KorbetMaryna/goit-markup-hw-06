@@ -37,11 +37,18 @@
 
 /* Header 1 */
 .first-title {
-    font-size: var(--font-size-first-title);
+    font-size: var(--font-size-second-title);
     font-weight: var(--font-weight-bold);
-    line-height: var(--line-height-biggest);
-    letter-spacing: var(--letter-spacing-first-title);
+    line-height: var(--line-height-big);
     color: var(--color-white-background);
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 768px) {
+    .first-title {
+        font-size: var(--font-size-first-title);
+        line-height: var(--line-height-biggest);
+    }
 }
 
 /* Header 2 */
@@ -56,19 +63,35 @@
 
 /* Header 3 */
 .third-title {
-    font-size: var(--font-size-third-title);
-    font-weight: var(--font-weight-medium);
-    line-height: var(--line-height-medium);
-    letter-spacing: var(--letter-spacing-third-title);
+    font-size: var(--font-size-second-title);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-big);
+    letter-spacing: var(--letter-spacing-second-title);
     color: var(--color-dark);
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 1158px) {
+    .third-title {
+        font-size: var(--font-size-third-title);
+            font-weight: var(--font-weight-medium);
+            line-height: var(--line-height-medium);
+            letter-spacing: var(--letter-spacing-third-title);
+    }
 }
 
 .main-text {
     font-size: var(--font-size-medium-text);
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-medium);
     line-height: var(--line-height-medium);
     letter-spacing: var(--letter-spacing-text);
     color: var(--color-text);
+}
+
+@media screen and (min-width: 1158px) {
+    .main-text {
+        font-weight: var(--font-weight-regular);
+    }
 }
 
 .btn-properties:hover,
