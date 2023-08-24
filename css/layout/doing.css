@@ -1,0 +1,28 @@
+@media screen and (max-width: 1157px) {
+    .section-doing-styles {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .section-doing-styles {
+    background-color: var(--color-white-background);
+    text-align: center;
+    padding-top: 0;
+}
+
+    .section-doing-title {
+        margin-bottom: 72px;
+}
+
+    .section-doing-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+}
+
+    .section-doing-item {
+        width: calc((100% - 2*24px) / 3);
+    }
+}
+
