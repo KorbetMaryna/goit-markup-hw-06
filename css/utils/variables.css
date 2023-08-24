@@ -1,0 +1,49 @@
+:root {
+    /* =====TYPOGRAPHY===== */
+    --font-family-page: "Roboto", sans-serif;
+    --font-family-logo: "Raleway", sans-serif;
+
+    --font-size-big-text: 18px;
+    --font-size-medium-text: 16px;
+    --font-size-small-text: 12px;
+    --font-size-first-title: 56px;
+    --font-size-second-title: 36px;
+    --font-size-third-title: 20px;
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+    --font-weight-black: 900;
+
+    --line-height-biggest: 1.07;
+    --line-height-big: 1.11;
+    --line-height-medium: 1.50;
+    --line-height-logo: 1.17;
+    --line-height-small: 1.20;
+    --line-height-micro: 1.17;
+    --line-height-input: 2.00;
+
+    --letter-spacing-btn: 0.64px;
+    --letter-spacing-logo: 0.54px;
+    --letter-aspacing-input: 0.48px;
+    --letter-spacing-text: 0.32px;
+    --letter-spacing-first-title: 1.12px;
+    --letter-spacing-second-title: 0.72px;
+    --letter-spacing-third-title: 0.4px;
+
+    /* =====COLORS===== */
+    --color-primary-brand: #4D5AE5;
+    --color-pressed-state: #404BBF;
+    --color-dark: #2E2F42;
+    --color-success: #31D0AA;
+    --color-text: #434455;
+    --color-subtle-text: #8E8F99;
+    --color-accent: #E7E9FC;
+    --color-light: #F4F4FD;
+    --color-modal-overlay: #ABACB3;
+    --color-hero-background: #6D6D7B;
+    --color-white-background: #FFFFFF;
+    --color-modal-background: #FCFCFC;
+    --color-border: #e7e9fc;
+}
