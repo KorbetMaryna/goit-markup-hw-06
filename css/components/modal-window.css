@@ -10,12 +10,9 @@
 
 .modal {
     position: absolute;
-    width: 392px;
     top: 50%;
     left: 50%;
-    padding: 72px 16px 24px 16px;
     transform: translate(-50%, -50%);
-    min-height: 584px;
     border-radius: 4px;
     background-color: var(--color-modal-background);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -27,12 +24,18 @@
 @media screen and (max-width: 427px) {
     .modal {
         overflow: auto;
+        width: 280px;
+        min-height: 484px;
+        padding: 60px 16px 24px 16px;
     }
 } 
 
 @media screen and (min-width: 428px) {
     .modal {
         overflow: hidden;
+        width: 392px;
+        min-height: 584px;
+        padding: 72px 16px 24px 16px;
     }
 } 
 
@@ -51,8 +54,8 @@
 
 .modal-close-btn {
     position: absolute;
-    top: 24px;
-    right: 24px;
+    top: 20px;
+    right: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,6 +67,13 @@
     padding: 0;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 428px) {
+    .modal-close-btn {
+        top: 24px;
+        right: 24px;
+    }
 }
 
 .modal-close-btn:hover,
@@ -92,11 +102,20 @@
 .modal-form-text {
     color: var(--color-dark, #2E2F42);
     text-align: center;
-    font-size: var(--font-size-medium-text);
-    font-weight: var(--font-weight-medium);
-    line-height: var(--line-height-medium);
+    font-size: var(--font-size-small-text);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-small);
     letter-spacing: var(--letter-spacing-text);
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+}
+
+@media screen and (min-width: 428px) {
+    .modal-form-text {
+        font-size: var(--font-size-medium-text);
+        font-weight: var(--font-weight-medium);
+        line-height: var(--line-height-medium);
+        margin-bottom: 16px;
+    }
 }
 
 .modal-form-field {
@@ -120,14 +139,21 @@
 
 .modal-form-input {
     width: 100%;
-    height: 40px;
-    font-size: 18px;
+    height: 30px;
+    font-size: 12px;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: transparent;
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 428px) {
+    .modal-form-input {
+        height: 40px;
+        font-size: 18px;
+    }
 }
 
 .modal-form-icon {
@@ -155,8 +181,8 @@
 
 .modal-form-message {
     width: 100%;
-    height: 120px;
-    font-size: 18px;
+    height: 80px;
+    font-size: 12px;
     margin-top: 4px;
     padding: 8px 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -167,9 +193,16 @@
     font-size: var(--font-size-small-text);
     line-height: var(--line-height-micro);
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
+    color: var(--color-dark, #2E2F42);
     background-color: transparent;
     outline: transparent;
+}
+
+@media screen and (min-width: 428px) {
+    .modal-form-message {
+        height: 120px;
+        font-size: 18px;
+    }
 }
 
 .modal-form-message::placeholder {
@@ -252,8 +285,8 @@
 
 .modal-form-submit-btn {
     display: block;
-    min-width: 169px;
-    padding: 16px 32px;
+    min-width: 120px;
+    padding: 12px 16px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -266,10 +299,20 @@
 
     color: var(--color-white-background, #FFF);
     text-align: center;
-    font-size: var(--font-size-medium-text);
-    font-weight: var(--font-weight-medium);
-    line-height: var(--line-height-medium);
+    font-size: var(--font-size-small-text);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-small);
     letter-spacing: var(--letter-spacing-btn);
+}
+
+@media screen and (min-width: 428px) {
+    .modal-form-submit-btn {
+        min-width: 169px;
+        padding: 16px 32px;
+        font-size: var(--font-size-medium-text);
+        font-weight: var(--font-weight-medium);
+        line-height: var(--line-height-medium);
+    }
 }
 
 .modal-form-submit-btn:hover,
