@@ -229,7 +229,6 @@
 
 .page-footer-form-items-input::placeholder {
     color: var(--color-white-background, #FFF);
-    font-family: var(--font-family-page);
     font-size: var(--font-size-small-text);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-input);
@@ -251,7 +250,6 @@
 
     color: var(--color-white-background, #FFF);
     text-align: center;
-    font-family: var(--font-family-page);
     font-size: var(--font-size-medium-text);
     font-weight: var(--font-weight-medium);
     line-height: var(--line-height-medium);

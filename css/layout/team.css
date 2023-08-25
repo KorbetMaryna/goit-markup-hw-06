@@ -45,13 +45,13 @@
 } 
 
 @media screen and (min-width: 768px) {
-    .team__item {
+    .section-team-card {
         width: calc((100%-24px) / 2);
     }
 }
 
 @media screen and (min-width: 1158px) {
-    .team__item {
+    .section-team-card {
         width: calc((100% - 3*24px) / 4);
     }
 }

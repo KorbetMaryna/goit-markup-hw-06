@@ -35,7 +35,6 @@
     color: var(--color-light);
 }
 
-/* Header 1 */
 .first-title {
     font-size: var(--font-size-second-title);
     font-weight: var(--font-weight-bold);
@@ -51,7 +50,6 @@
     }
 }
 
-/* Header 2 */
 .second-title {
     font-size: var(--font-size-second-title);
     font-weight: var(--font-weight-bold);
@@ -61,7 +59,6 @@
     color: var(--color-dark);
 }
 
-/* Header 3 */
 .third-title {
     font-size: var(--font-size-second-title);
     font-weight: var(--font-weight-bold);
